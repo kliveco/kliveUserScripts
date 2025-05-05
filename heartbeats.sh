@@ -2,7 +2,7 @@
 
 # Using (External) Uptime Kuma Service with PUSH links to show heartbeat from home server 
 # Format: "DOCKER_CONTAINER_NAME|HEARTBEAT_URL|PORT"
-# Changed links/ports for obvious reasons
+# Changed links/ports for obvious reasons 
 SERVICES=(
     "cloudflared-tunnel|https://github.com/kliveco/push/API?status=up|1234"
     "homebridge|https://github.com/kliveco/push/API?status=up|1234"
